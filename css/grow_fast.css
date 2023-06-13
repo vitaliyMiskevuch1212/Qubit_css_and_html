@@ -64,9 +64,10 @@
     color: #000000;
     margin-top: 10px;
 }
-.grow_fast_block_flex {
-    display: flex;
-    flex-wrap: wrap;
+.grow_fast_block_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-left: #E0E0E0 3px solid;
 }
 .grow_fast_block {
     margin: 70px 65px 40px 40px;
@@ -86,5 +87,9 @@
     font-size: 15px;
     line-height: 22px;
     color: #000000;
+}
+.grow_fast_line_vert {
+    border-left: 3px solid #6F2CFF;
+    width: 300px;
 }
 
