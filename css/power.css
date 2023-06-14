@@ -1,0 +1,59 @@
+.power {
+    background-color: #F5F5F5;
+}
+.power_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+.power_subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 80px;
+}
+.power_img {
+    display: block;
+    margin: auto;
+}
+.power_buttons {
+    margin-top: 70px;
+    text-align: center;
+}
+.power_see_products {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 13px 45px;
+    margin-right: 5px;
+    background: #6F2CFF;
+    border-radius: 30px;
+}
+.power_book_a_demo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #6F2CFF;
+    padding: 13px 45px;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 #6F2CFF;
+    border-radius: 30px;
+}
+
+
+
