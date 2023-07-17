@@ -1,0 +1,37 @@
+.what_you_can_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.What_you_can_block {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.what_you_can_block_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.what_you_can_block_subtitle {
+    ont-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1C1C1C;
+    max-width: 250px;
+    margin: auto;
+}
