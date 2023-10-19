@@ -1,0 +1,47 @@
+.ecosystem {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 120px;
+}
+.ecosystem_content {
+    margin: auto;
+    text-align: left;
+}
+.ecosystem_title {
+    color: #17002E;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 112.5% */
+    padding-bottom: 40px;
+}
+.ecosystem_subtitle {
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 230.769% */
+    padding-bottom: 15px;
+}
+.ecosystem_paragraph {
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 230.769% */
+    padding-bottom: 70px;
+}
+.ecosystem_button {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 100% */
+    border-radius: 30px;
+    background: #6F2CFF;
+    padding: 15px 30px;
+}
