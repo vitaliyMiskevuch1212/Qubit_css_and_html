@@ -1,0 +1,28 @@
+.qubit_map {
+    border: 2px solid #ccc; /* зовнішня рамка */
+    border-radius: 10px; /* округлі кути */
+    background-color: #f9f9f9; /* фоновий колір */
+    padding: 20px; /* відступ всередині */
+    margin: 0 auto; /* центрування по горизонталі */
+}
+
+.qubit_map_title {
+    color: #333; /* колір тексту */
+    font-size: 24px; /* розмір шрифту */
+    font-weight: bold; /* жирний шрифт */
+    text-align: center; /* центрування тексту */
+    margin-bottom: 20px; /* відступ вниз */
+}
+
+/* Налаштування внутрішнього відступу для iframe */
+.qubit_map iframe {
+    display: block; /* блочний відображення */
+    margin: 0 auto; /* центрування по горизонталі */
+}
+
+.qubit_map iframe {
+    border: 2px solid #000; /* товщина та колір рамки */
+    border-radius: 10px; /* радіус закруглення кутів */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* тінь для вигляду підняття */
+}
+

@@ -54,3 +54,23 @@
     color: #000000;
 }
 
+
+/* Спочатку ховаємо всі блоки */
+.Commerce_ai_block {
+    opacity: 0;
+    transform: translateY(20px); /* Відступ вниз, щоб створити ефект з'явлення знизу */
+    animation: appearAnimation 0.5s ease forwards; /* Використовуємо анімацію з назвою appearAnimation, тривалість 0.5 секунди */
+}
+
+/* Спочатку ховаємо всі блоки */
+.Commerce_ai_block {
+    opacity: 0;
+    transform: translateY(20px); /* Відступ вниз, щоб створити ефект з'явлення знизу */
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Застосовуємо анімацію при зміні стилів */
+.Commerce_ai_block.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
